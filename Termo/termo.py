@@ -1,7 +1,7 @@
 import random
 import pyfiglet
 
-hello = pyfiglet.figlet_format("welcome!")
+hello = pyfiglet.figlet_format("Termo!")
 print(hello)
 print('Write a FIVE letters word, the colors will show you whats WRONG or RIGHT:')
 print('🟩 Have this letter in the word, and the position is right.')
@@ -9,7 +9,7 @@ print('🟨 Have this letter in the word, but the position is wrong.')
 print('⬛️Dont have this letter in the word!')
 print()
 
-words = ['vigor', 'brado', 'causa', 'sonho', 'tempo', 'anexo', 'moral', 'assim', 'nobre', 'algoz', 'senso', 'mexer', 'sagaz',]
+words = ['vigor', 'brado', 'causa', 'sonho', 'tempo', 'anexo', 'moral', 'assim', 'nobre', 'algoz', 'senso', 'mexer', 'sagaz']
 random_word = random.choice(words).upper()
 
 code_word = ["⬛️", "⬛️", "⬛️", "⬛️", "⬛️"]
@@ -60,5 +60,5 @@ if life == 0 or win_check == 5:
         print(f'‍🚀 You win! The word is "{random_word}"! ‍🚀')
     elif life != 0 and win_check == 5:
         print(f'‍🚀 You win! The word is "{random_word}"! ‍🚀')
-    play_again = input('Thanks for playing! Want to play again?')
+    play_again = input('Thanks for playing!')
 
