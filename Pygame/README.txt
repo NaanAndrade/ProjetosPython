@@ -1,0 +1,1 @@
+Estudo de Pygame para continuidade no aprendizado da linguagem Python.
